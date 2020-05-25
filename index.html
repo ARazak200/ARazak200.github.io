@@ -1,52 +1,64 @@
 <!DOCTYPE html>
-<html>
-<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-
-
-<style>
-.cover-image{
-	background-image: url("images/indexCover.jpg");
-    background-color: #CCCCCC;
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-</style>
-
-<!-- slide nav menu -->
-<div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large"
-  onclick="w3_close()">Close &times;</button>
-  <a href="index.html" class="w3-bar-item w3-button">Home</a>
-  <a href="about.html" class="w3-bar-item w3-button">About</a>
-  <a href="outdoors.html" class="w3-bar-item w3-button">Outdoors</a>
-</div>
-
-<!-- This is image for the cover -->
-<div class="cover-image">
-    <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
-    <div class="w3-container"> </div>
-  </div>
-
-<script>
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-}
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-}
-</script>
-
-<footer style="text-align: center">
   <p>&copy; 2020 - Aadam Razak</p>
-</footer>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-</body>
-</html> 
+        <style>
+            body, html {
+                height: 100%;
+                background-color: #CCCCCC;
+            }
 
+            footer {
+                position: absolute;
+                display: inline-block;
+                bottom: 5px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: white;
+            }
+
+            .background {
+                background-image: url("static/images/indexCover.jpg");
+                z-index: -1;
+                height: 100%;
+                width: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- slide nav menu -->
+        <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display: none;" id="sidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <a href="outdoors.html" class="w3-bar-item w3-button">Outdoors</a>
             <a href="cycling.html" class="w3-bar-item w3-button">Cycles</a>
+        </div>
+
+        <button class="w3-display-topleft w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+        <!-- This is image for the cover -->
+
+        <div class="background"></div>
+
+        <footer style="text-align: center;">
+        </footer>
+
+        <script>
+            function w3_open() {
+                document.getElementById("sidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("sidebar").style.display = "none";
+            }
+        </script>
+        <script type="text/javascript" src="static/js/page.js"></script>
+    </body>
+</html>
