@@ -1,7 +1,11 @@
 footer {
-    color: white;
     text-align: center;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+}
+
+.index-footer {
+    color: white;
     position: absolute;
     bottom: 5px;
     left: 50%;
