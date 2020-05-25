@@ -1,118 +1,109 @@
 <!DOCTYPE html>
-<html>
-<title>Outdoors</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<!-- slide nav menu -->
-<div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
-    <button class="w3-bar-item w3-button w3-large"
-            onclick="w3_close()">Close &times;</button>
-    <a href="index.html" class="w3-bar-item w3-button">Home</a>
-    <a href="about.html" class="w3-bar-item w3-button">About</a>
-    <a href="outdoors.html" class="w3-bar-item w3-button">Outdoors</a>
-    <a href="cycling.html" class="w3-bar-item w3-button">Cycles</a>
-</div>
+        <title>Cycling</title>
 
-<div>
-    <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
-    <div class="w3-container">
-
-    </div>
-</div>
-
-<h1 style="text-align: center; font-family: 'Bookman Old Style'" >Cycling Adventures</h1>
-<!--page mountains content-->
-<div class="w3-main w3-content w3-padding" style="max-width: 1200px; margin-top: 100px">
-
-    <!-- First Photo Grid-->
-    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-        <div class="w3-quarter">
-
-            <img src="static/images/pfscot2019.jpg" alt="Ben Lomond" height="100%" width="100%"/>
-            <h3>Ben Lomond</h3>
-            <p>Location:Loch Lomond, Scotland</p>
-            <p>Elevation:990m</p>
-            <p>Date assented: 07-06-2014</p>
-            <p>First munro I climbed</p>
-        </div>
-        <div class="w3-quarter">
-            <img src="static/images/benNevis.JPG" alt="Ben Nevis" height="100%" width="100%"/>
-            <h3>Ben Nevis</h3>
-            <p>Location:Fort William, Scotland</p>
-            <p>Elevation: 1345m</p>
-            <p>Date assented: 20-10-2018</p>
-            <p>Comments:</p>
-        </div>
-        <div class="w3-quarter">
-            <img src="static/images/theCairnwell.jpg" alt="The Cairnwell" height="100%" width="100%" />
-            <h3>The Cairnwell</h3>
-            <p>Location:Cairngorns, Scotland</p>
-            <p>Elevation:933m</p>
-            <p>Date assented: 21-04-2018</p>
-            <p>Three munros in one day(Carn Aosda, Carn a'Gheoidh, the CairnWell)</p>
-        </div>
-        <div class="w3-quarter">
-            <img src="static/images/benvolich.JPG" alt="Ben Volich" height="100%" width="100%" />
-            <h3>Ben Volich(Loch Earn)</h3>
-            <p>Location:Perthshire, Scotland</p>
-            <p>Elevation:985m</p>
-            <p>Date assented: 23-12-2018</p>
-            <p>First Snow Munro</p>
-        </div>
-    </div>
-
-    <!-- Second Photo Grid-->
-    <div class="w3-row-padding w3-padding-16 w3-center">
-        <div class="w3-quarter">
-
-            <img src="static/images/scarfellPike.JPG" alt="Scarfell Pike" height="100%" width="100%"/>
-            <h3>Scarfell Pike</h3>
-            <p>Location: Lake District, England</p>
-            <p>Elevation: 978m</p>
-            <p>Date assented: 30-09-2017</p>
-            <p>Tallest mountain in England</p>
+        <link rel="stylesheet" type="text/css" href="static/css/w3.min.css"/>
+        <link rel="stylesheet" type="text/css" href="static/css/shared.css"/>
+    </head>
+    <body>
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="sidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <a href="outdoors.html" class="w3-bar-item w3-button">Outdoors</a>
+            <a href="cycling.html" class="w3-bar-item w3-button">Cycles</a>
         </div>
 
-        <div class="w3-quarter">
-            <img src="static/images/airaforce.JPG" alt="Aira Force Waterfall" height="100%" width="100%" />
-            <h3>Aira Force Waterfall</h3>
-            <p>Location: Penrith, England</p>
-            <p>Date assented: 23-06-2018</p>
-            <p>85 year of grandma proved her husband wrong</p>
-        </div>
-        <div class="w3-quarter">
-            <img src="static/images/Dumyat.jpg" alt="Dumyat" height="100%" width="100%"/>
-            <h3>Dumyat</h3>
-            <p>Location:Stirling, Scotland</p>
-            <p>Elevation:190m</p>
-            <p>Date assented: 16-12-2017</p>
-            <p>comments</p>
-        </div>
-        <div class="w3-quarter">
-            <img src="static/images/BenAnn.JPG" alt="Ben A'nn" height="100%" width="100%"/>
-            <h3>Ben A'nn</h3>
-            <p>Location:Trocachs, Scotland</p>
-            <p>Elevation:340m</p>
-            <p>Date assented: 02-09-2017</p>
-            <p>First Night Climb</p>
-        </div>
-    </div>
-</div>
+        <button class="w3-display-topleft w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
 
-<script>
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-    }
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-    }
-</script>
+        <h1 style="text-align: center; font-family: 'Bookman Old Style'" >Cycling Adventures</h1>
 
-<footer style="text-align: center">
-    <p>&copy; 2020 - Aadam Razak</p>
-</footer>
+        <!--page mountains content-->
+        <div class="w3-main w3-content w3-padding" style="max-width: 1200px; margin-top: 100px">
 
-</body>
+            <!-- First Photo Grid-->
+            <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                <div class="w3-quarter">
+
+                    <img src="static/images/pfscot2019.jpg" alt="Ben Lomond" height="100%" width="100%"/>
+                    <h3>Ben Lomond</h3>
+                    <p>Location:Loch Lomond, Scotland</p>
+                    <p>Elevation:990m</p>
+                    <p>Date assented: 07-06-2014</p>
+                    <p>First munro I climbed</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="static/images/benNevis.JPG" alt="Ben Nevis" height="100%" width="100%"/>
+                    <h3>Ben Nevis</h3>
+                    <p>Location:Fort William, Scotland</p>
+                    <p>Elevation: 1345m</p>
+                    <p>Date assented: 20-10-2018</p>
+                    <p>Comments:</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="static/images/theCairnwell.jpg" alt="The Cairnwell" height="100%" width="100%" />
+                    <h3>The Cairnwell</h3>
+                    <p>Location:Cairngorns, Scotland</p>
+                    <p>Elevation:933m</p>
+                    <p>Date assented: 21-04-2018</p>
+                    <p>Three munros in one day(Carn Aosda, Carn a'Gheoidh, the CairnWell)</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="static/images/benvolich.JPG" alt="Ben Volich" height="100%" width="100%" />
+                    <h3>Ben Volich(Loch Earn)</h3>
+                    <p>Location:Perthshire, Scotland</p>
+                    <p>Elevation:985m</p>
+                    <p>Date assented: 23-12-2018</p>
+                    <p>First Snow Munro</p>
+                </div>
+            </div>
+
+            <!-- Second Photo Grid-->
+            <div class="w3-row-padding w3-padding-16 w3-center">
+                <div class="w3-quarter">
+
+                    <img src="static/images/scarfellPike.JPG" alt="Scarfell Pike" height="100%" width="100%"/>
+                    <h3>Scarfell Pike</h3>
+                    <p>Location: Lake District, England</p>
+                    <p>Elevation: 978m</p>
+                    <p>Date assented: 30-09-2017</p>
+                    <p>Tallest mountain in England</p>
+                </div>
+
+                <div class="w3-quarter">
+                    <img src="static/images/airaforce.JPG" alt="Aira Force Waterfall" height="100%" width="100%" />
+                    <h3>Aira Force Waterfall</h3>
+                    <p>Location: Penrith, England</p>
+                    <p>Date assented: 23-06-2018</p>
+                    <p>85 year of grandma proved her husband wrong</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="static/images/Dumyat.jpg" alt="Dumyat" height="100%" width="100%"/>
+                    <h3>Dumyat</h3>
+                    <p>Location:Stirling, Scotland</p>
+                    <p>Elevation:190m</p>
+                    <p>Date assented: 16-12-2017</p>
+                    <p>comments</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="static/images/BenAnn.JPG" alt="Ben A'nn" height="100%" width="100%"/>
+                    <h3>Ben A'nn</h3>
+                    <p>Location:Trocachs, Scotland</p>
+                    <p>Elevation:340m</p>
+                    <p>Date assented: 02-09-2017</p>
+                    <p>First Night Climb</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> - Aadam Razak</p>
+        </footer>
+
+        <script src="static/js/sidebar.js"></script>
+    </body>
 </html>

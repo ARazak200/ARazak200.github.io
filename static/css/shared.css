@@ -1,0 +1,9 @@
+footer {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
