@@ -11,3 +11,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);
 }
+.header {
+    position: fixed;
+}
+/*add a fixed sidebar btn and header- place in own div and find the correct css*/
