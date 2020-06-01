@@ -1,17 +1,22 @@
 footer {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .index-footer {
-    color: white;
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .header {
-    position: fixed;
+  position: fixed;
 }
 /*add a fixed sidebar btn and header- place in own div and find the correct css*/
+
+.flex-box-container-1 div {
+  margin: 10px;
+  border: 1px solid black;
+}
