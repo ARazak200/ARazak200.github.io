@@ -43,3 +43,5 @@ carouselSlide.addEventListener('transitionend', () => {
     }
 
 });
+
+

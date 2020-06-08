@@ -1,9 +1,10 @@
+
+
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
-
 .carousel-container {
   width: 60%;
   margin: auto;
@@ -24,7 +25,6 @@
     left: 5%;
     font-size: 30px;
     color: white;
-    opacity: 0.5;
     cursor: pointer;
 }
 #nextBtn {
@@ -36,3 +36,4 @@
   color: white;
   cursor: pointer;
 }
+

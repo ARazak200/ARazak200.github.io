@@ -1,70 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Home</title>
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="static/images/favicon.png"
-    />
-    <link rel="stylesheet" type="text/css" href="static/css/w3.min.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/shared.css" />
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <style>
-      body,
-      html {
-        height: 100%;
-        background-color: #cccccc;
-      }
+  <title>Home</title>
+  <link rel="shortcut icon" type="image/png" href="static/images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="static/css/w3.min.css" />
+  <link rel="stylesheet" type="text/css" href="static/css/shared.css" />
 
-      .background {
-        background-image: url("static/images/indexCover.jpg");
-        z-index: -1;
-        height: 100%;
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Sidenav -->
-    <div
-      class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left"
-      style="display: none;"
-      id="sidebar"
-    >
-      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
-        Close &times;
-      </button>
-      <a href="index.html" class="w3-bar-item w3-button">Home</a>
-      <a href="about.html" class="w3-bar-item w3-button">About</a>
-      <a href="outdoors.html" class="w3-bar-item w3-button">Outdoors</a>
-      <a href="cycling.html" class="w3-bar-item w3-button">Cycles</a>
-    </div>
+  <style>
+    body,
+    html {
+      height: 100%;
+      background-color: #cccccc;
+    }
 
-    <button
-      class="w3-display-topleft w3-button w3-white w3-xxlarge"
-      onclick="w3_open()"
-    >
-      &#9776;
+    .background {
+      background-image: url("static/images/indexCover.jpg");
+      z-index: -1;
+      height: 100%;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Sidenav -->
+  <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display: none;" id="sidebar">
+    <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
+      Close &times;
     </button>
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <a href="outdoors.html" class="w3-bar-item w3-button">Outdoors</a>
+    <a href="cycling.html" class="w3-bar-item w3-button">Cycles</a>
+  </div>
 
-    <!-- Background image -->
-    <div class="background"></div>
+  <button class="w3-display-topleft w3-button w3-white w3-xxlarge" onclick="w3_open()">
+    &#9776;
+  </button>
 
-    <footer class="index-footer">
-      <p>
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
-        &copy; Aadam Razak
-      </p>
-    </footer>
+  <!-- Background image -->
+  <div class="background"></div>
 
-    <script src="static/js/sidebar.js"></script>
-  </body>
+  <footer class="index-footer">
+    <p>
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      &copy; Aadam Razak
+    </p>
+    <a href="https://www.strava.com/athletes/14214170" target="_blank">Strava·</a>
+    <a href="https://www.mapmyride.com/profile/#user_dashboard" target="_blank">MapMyRide·</a>
+    <a href="https://www.instagram.com/aadamrazak/" target="_blank">Instagram·</a>
+    <a href="https://pakistani-cycles-rides.tumblr.com/" target="_blank">Tumblr</a>
+  </footer>
+
+  <script src="static/js/sidebar.js"></script>
+</body>
+
 </html>
