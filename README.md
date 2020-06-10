@@ -1,11 +1,10 @@
 # ARazak200.github.io
 
 - Website hosted on Github via arazak200.github.io
-- Using Internal and External CSS.
+- Using Internal, External CSS and javascript.
 
 # improvements to the website 
 - [ ] Fixed position of title and nav bar
-
 
 # Contents
 - [ ] Master 
@@ -17,9 +16,10 @@
   - Cover Picture
   
   
-- [ ] About
+- [ X ] About
 	- introduction about myself
-	- Add a img 
+	-Auto Slde show img
+			- new pictures 
 	
 - [ ] Outdoors
 	Blog type view
