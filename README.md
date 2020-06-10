@@ -16,7 +16,7 @@
   - Cover Picture
   
   
-- [ X ] About
+- [X] About
 	- introduction about myself
 	-Auto Slde show img
 			- new pictures 
