@@ -25,6 +25,6 @@
 		- Each grid conatins a img and information about the activity.
 4.  Cycling
 	- 2X2 grid 
-		-  Each grid has a Title, a little introduction and a emmded code of the strava activity.
+		-  Each grid has a title, a little introduction and a emmded code of the strava activity.
 
 
