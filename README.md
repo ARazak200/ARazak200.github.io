@@ -4,7 +4,7 @@
 - Using Internal, External CSS and javascript.
 
 # improvements to the website 
-- [ ] Fixed position of title and nav bar
+1. Fixed position of title and nav bar. [ Done ]
 
 # Contents
 - [ ] Master 
@@ -12,20 +12,20 @@
   - Side Bar
   - Footer
   
-- [ ] Index
+1.  Index
   - Cover Picture
   
   
-- [X] About
-	- introduction about myself
-	-Auto Slde show img
-			- new pictures 
+2.  About
+	- Introduction about Aadam.
+	- Auto Slde show using JavaScript.
+			
 	
-- [ ] Outdoors
+3.  Outdoors
 	Blog type view
 	- 1st Grid
 		- Row of four pictures 
-		-five coloumns of text about outdoor adventure
+		- Five coloumns of text about outdoor adventure
 	- 2nd Grid
 		- Row of four pictures
 		-five coloumns of text about outdoor adventure
