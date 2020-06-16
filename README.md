@@ -4,39 +4,27 @@
 - Using Internal, External CSS and javascript.
 
 # improvements to the website 
-- [ ] Fixed position of title and nav bar
+1. Fixed position of title and nav bar. 
 
 # Contents
-- [ ] Master 
+1. Master 
   - Header
   - Side Bar
   - Footer
   
-- [ ] Index
-  - Cover Picture
+1.  Index
+	- Cover Picture as the backgroud.
   
-  
-- [X] About
-	- introduction about myself
-	-Auto Slde show img
-			- new pictures 
+2.  About
+	- Introduction about Aadam.
+	- Auto Slde show using JavaScript.
 	
-- [ ] Outdoors
+3.  Outdoors
 	Blog type view
-	- 1st Grid
-		- Row of four pictures 
-		-five coloumns of text about outdoor adventure
-	- 2nd Grid
-		- Row of four pictures
-		-five coloumns of text about outdoor adventure
-	
-- [ ] Cycling
-	Blog type view
-	- 1st Grid
-		- Row of four pictures 
-		-five coloumns of text about outdoor adventure
-	- 2nd Grid
-		- Row of four pictures
-		-five coloumns of text about outdoor adventure
+	- 4X2 Grid
+		- Each grid conatins a img and information about the activity.
+4.  Cycling
+	- 2X2 grid 
+		-  Each grid has a title, a little introduction and a emmded code of the strava activity.
 
 
