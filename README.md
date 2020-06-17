@@ -1,16 +1,16 @@
 # ARazak200.github.io
 
-- Website hosted on Github via arazak200.github.io
+- Website hosted on Github via https://arazak200.github.io/
 - Using Internal, External CSS and javascript.
 
-# improvements to the website 
+# Improvements to the website 
 1. Fixed position of title and nav bar. 
 
 # Contents
-1. Master 
-  - Header
-  - Side Bar
-  - Footer
+- Master page 
+  	- Header
+  	- Side Bar
+  	- Footer
   
 1.  Index
 	- Cover Picture as the backgroud.
@@ -27,4 +27,6 @@
 	- 2X2 grid 
 		-  Each grid has a title, a little introduction and a emmded code of the strava activity.
 
-
+# Acknowledgement
+- Most research was from public form. 
+- CSS is from w3schools and some internal CSS helped by a university friend.
