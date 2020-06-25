@@ -44,15 +44,6 @@ img {
 	text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
 	height: 15px;
