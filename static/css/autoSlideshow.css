@@ -11,7 +11,7 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 
 img {
-	height: 40vh;
+	height: 50vh;
 	display: block;
 	margin: 0 auto;
 }
@@ -19,7 +19,7 @@ img {
 /* Slideshow container */
 .slideshow-container {
 	max-width: 550px;
-	height: 40vh;
+	height: 50vh;
 	position: relative;
 	margin: auto;
 	overflow: hidden;
