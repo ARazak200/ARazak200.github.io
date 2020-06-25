@@ -85,14 +85,6 @@ img {
 	border-radius: 6px;
 }
 
-button.play {
-	background-color: rgb(160, 255, 152);
-}
-
-button.pause {
-	background-color: rgb(255, 161, 161);
-}
-
 @-webkit-keyframes fade {
 	from {opacity: .4} 
 	to {opacity: 1}

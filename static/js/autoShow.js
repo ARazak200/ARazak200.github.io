@@ -10,16 +10,11 @@ showSlides();
  */
 btn.addEventListener('click', (event) => {
 	paused = !paused;  // invert
-	cls = btn.classList;
 
 	if (paused) {
 		clearTimeout(slideshowTimeout);  // stop the slideshow on current image
-		cls.remove("pause");
-		cls.add("play");
 		btn.innerHTML = '<i class="fa fa-play"></i>';
 	} else {
-		cls.remove("play");
-		cls.add("pause");
 		btn.innerHTML = '<i class="fa fa-pause"></i>';
 		showSlides();  // restart the slideshow
 	}
