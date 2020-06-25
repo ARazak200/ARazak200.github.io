@@ -1,7 +1,29 @@
 //AUTO PLAYING SIDESHOW PLAYGROUND
 
 var slideIndex = 0;
+var paused = false;  // it starts playing so it is not paused;
+const btn = document.getElementsByClassName("slideshow-controller")[0];
 showSlides();
+
+/**
+ * This event listener handles the pause and play buttons logic and styling
+ */
+btn.addEventListener('click', (event) => {
+	paused = !paused;  // invert
+	cls = btn.classList;
+
+	if (paused) {
+		clearTimeout(slideshowTimeout);  // stop the slideshow on current image
+		cls.remove("pause");
+		cls.add("play");
+		btn.innerHTML = '<i class="fa fa-play"></i>';
+	} else {
+		cls.remove("play");
+		cls.add("pause");
+		btn.innerHTML = '<i class="fa fa-pause"></i>';
+		showSlides();  // restart the slideshow
+	}
+});
 
 function showSlides() {
 	var i;
@@ -19,6 +41,8 @@ function showSlides() {
 	}
 	slides[slideIndex - 1].style.display = "block";
 	dots[slideIndex - 1].className += " active";
-	setTimeout(showSlides, 2000); // Change image every 2 seconds
-		setTimeout(showSlides, 4000); // Change image every 4 seconds
+	
+	if (!paused) {
+		slideshowTimeout = setTimeout(showSlides, 4000); // Change image every 4 seconds
+	}
 }
