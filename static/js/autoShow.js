@@ -5,7 +5,7 @@ showSlides();
 
 function showSlides() {
 	var i;
-	var slides = document.getElementsByClassName("mySlides");
+	var slides = document.getElementsByClassName("slideshow-container")[0].children;
 	var dots = document.getElementsByClassName("dot");
 	
 	for (i = 0; i < slides.length; i++) {
