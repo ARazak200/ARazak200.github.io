@@ -29,6 +29,12 @@ header.fixed {
   left: 0;
   width: 100%;
   padding: 5px;
-  background: white;
-  
-}
+  background-color: transparent;
+  }
+
+  fixed-slidebar {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
