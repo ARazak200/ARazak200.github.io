@@ -1,22 +1,22 @@
 footer {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
 }
 
 .index-footer {
-  color: white;
-  position: absolute;
-  bottom: 5px;
-  left: 50%;
-  transform: translateX(-50%);
+	color: white;
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .flex-box-container-1 div {
-  margin-right: 150px;
+	margin-right: 150px;
 }
 .flex-box-container-2 div {
-  margin-right: 220px;
+	margin-right: 220px;
 }
 
 /*add a fixed sidebar btn and header- place in own div and find the correct css*/
@@ -24,17 +24,11 @@ footer {
 /* fixed header*/
 
 header.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 5px;
-  background-color: transparent;
-  }
-
-  fixed-slidebar {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-  }
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px;
+	background: white;
+	
+}
