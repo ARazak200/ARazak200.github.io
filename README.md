@@ -26,6 +26,7 @@
 4.  Cycling
 	- 2X2 grid 
 		-  Each grid has a title, a little introduction and a emmded code of the strava activity.
+5.  Feedback sheet
 
 # Acknowledgement
 - Most research was from public form. 
