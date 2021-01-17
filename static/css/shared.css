@@ -18,6 +18,11 @@ footer {
 .flex-box-container-2 div {
 	margin-right: 220px;
 }
+.centre div {
+	margin-right: 220px;
+	position: absolute;
+}
+
 
 /*add a fixed sidebar btn and header- place in own div and find the correct css*/
 
