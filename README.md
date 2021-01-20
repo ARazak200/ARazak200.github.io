@@ -1,10 +1,7 @@
 # ARazak200.github.io
 
 - Website hosted on Github via https://arazak200.github.io/
-- Using Internal, External CSS and javascript.
-
-# Improvements to the website 
-1. Fixed position of title and nav bar. 
+- This project is to have a start on learning javascript, HTML and CSS. 
 
 # Contents
 - Master page 
@@ -31,3 +28,8 @@
 # Acknowledgement
 - Most research was from public form. 
 - CSS is from w3schools and some internal CSS helped by a university friend.
+
+# Improvements to the website 
+
+# Problem Solved 
+1. Fixed position of title and nav bar.
