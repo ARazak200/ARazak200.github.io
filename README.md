@@ -1,5 +1,3 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -109,4 +107,3 @@ Project Link: [arazak200.github.io](https://github.com/ARazak200/ARazak200.githu
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/aadam-razak-a7b176150/
 
-[product-screenshot]: static\images\screenshot.png
