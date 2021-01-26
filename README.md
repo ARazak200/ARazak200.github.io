@@ -22,29 +22,27 @@
 
 
 <!-- PROJECT LOGO -->
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="static\images\favicon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Aadam's Website-README </h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Project to start learning HTML, CSS and Javascript
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ARazak200/ARazak200.github.io/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/ARazak200/ARazak200.github.io/blob/master/README.md">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/ARazak200/ARazak200.github.io/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/ARazak200/ARazak200.github.io/issues">Request Feature</a>
   </p>
 </p>
-
 
 
 
