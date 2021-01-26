@@ -25,10 +25,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="static\images\favicon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Learning with HTML, CSS and JAVASCRIPT</h3>
 
   <p align="center">
     
@@ -39,6 +39,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </p>
+
 
 
 
@@ -99,7 +100,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Aadam_Razak](https://twitter.com/your_username) - razakaadam1@gmail.com
+Your Name - [@Aadam_Razak](https://twitter.com/Aadam_Razak) - razakaadam1@gmail.com
 
 Project Link: [arazak200.github.io](https://github.com/ARazak200/ARazak200.github.io)
 
@@ -108,8 +109,8 @@ Project Link: [arazak200.github.io](https://github.com/ARazak200/ARazak200.githu
 ## Acknowledgements
 
 * [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-
+* Most research was from public form. 
+* CSS is from w3schools and some internal CSS helped by a university friend.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -128,4 +129,4 @@ Project Link: [arazak200.github.io](https://github.com/ARazak200/ARazak200.githu
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/aadam-razak-a7b176150/
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: static\images\screenshot.png
