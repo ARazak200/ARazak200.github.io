@@ -13,7 +13,7 @@
     <a href="https://github.com/ARazak200/ARazak200.github.io/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://arazak200.github.io/">View Demo</a>
+    <a href="https://arazak200.github.io/">View Website</a>
     ·
     <a href="https://github.com/ARazak200/ARazak200.github.io/issues">Report Bug</a>
   </p>
