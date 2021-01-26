@@ -40,7 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://arazak200.github.io/)
+
 ![screenshot](https://user-images.githubusercontent.com/58515893/105895509-84930100-600d-11eb-9011-ceee439cceb6.png)
 
 # Contents
