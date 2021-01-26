@@ -87,7 +87,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Aadam_Razak](https://twitter.com/Aadam_Razak) - razakaadam1@gmail.com
+Aadam Razak - [Twitter](https://twitter.com/Aadam_Razak) - razakaadam1@gmail.com
 Project Link: [arazak200.github.io](https://github.com/ARazak200/ARazak200.github.io)
 
 <!-- ACKNOWLEDGEMENTS -->
